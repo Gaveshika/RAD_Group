@@ -1,0 +1,86 @@
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+body{
+  background-color: rgba(1, 11, 20, 0.007);
+  width: 100%;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 30px 0px 50px 0px;
+}
+
+.footer{
+  position: fixed;
+  background-color: #ffffff;
+  height: 25px;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+
+.home{
+      background-image: url('./images/walllpaper.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;   
+    min-height: 100vh;
+    min-width: 100%;
+  }
+
+.darkbg{
+    background-color: black;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    size: 4rem;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+table {
+  
+    min-width: 100%;
+    margin: 25px;
+    padding: 10px;
+}
+
+.heading{
+    margin-top: 70px;
+}
+
+.full{
+    min-height: 100vh;
+}
+
+.Option{
+    cursor: pointer;
+}
+
+.loading{
+  min-height: 100vh;
+}
+
+.main-txt {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-shadow: 0 0 3px #0055ff, 0 0 5px #0000FF;
+}
+
+.box {
+  top: 50%;
+  width: auto;
+  padding: 50px;
+  margin: 20px;
+}
+
+.nav-bar {
+  color: rgb(255, 255, 255) !important;
+}
