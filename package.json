@@ -1,0 +1,43 @@
+{
+  "name": "rad-group-assignment",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gaveshika/RAD_Group.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaveshika/RAD_Group/issues"
+  },
+  "homepage": "https://github.com/Gaveshika/RAD_Group#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.2",
+    "bootstrap-social": "^5.1.1",
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "mongoose": "^6.6.7",
+    "react-popper": "^2.3.0",
+    "reactstrap": "^9.1.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
