@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mashi-Abeywickrama/RAD-Group-Assignment.git"
+    "url": "https://github.com/Gaveshika/RAD_Group.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mashi-Abeywickrama/RAD-Group-Assignment/issues"
+    "url": "https://github.com/Gaveshika/RAD_Group/issues"
   },
-  "homepage": "https://github.com/Mashi-Abeywickrama/RAD-Group-Assignment#readme",
+  "homepage": "https://github.com/Gaveshika/RAD_Group#readme",
   "keywords": [],
   "description": "",
   "dependencies": {
